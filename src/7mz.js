@@ -91,7 +91,7 @@ function fineGioco(){
     var max=maxi(punteggi);
     for(i=0;i<player;i++){
         if(punteggi[i]==max){
-            alert("ha vinto il giocatore "+i);}
+            alert("ha vinto il giocatore "+(i+1));}
         }
     for(m=0;m<player;m++){
         punteggi[i]=0;
